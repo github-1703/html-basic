@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    background-color: rgb(236, 210, 210);
+
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.shape {
+    height: 200px;
+    width: 200px;
+    margin-TOP: 10PX;
+    MARGIN-Left: 10px;
+    /* border-radius:50%; */
+    border: solid 3px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#circle {
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+#circle:hover {
+    background-color: rgb(196, 196, 38);
+}
+
+#diamond {
+
+    margin-top: 40px;
+    rotate: 45deg;
+    background-color: white;
+    width:142px;
+    height:142px;
+    translate:35px;
+
+   
+}
+
+#diamond h1 {
+    rotate: -45deg;
+    
+}
+
+#diamond:hover {
+    background-color: darkcyan;
+
+}
+
+#square {
+    background-color: white;
+}
+
+#square:hover {
+    background-color: rgb(190, 173, 160);
+}

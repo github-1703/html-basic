@@ -1,0 +1,81 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box
+}
+html,body{
+    height:100%;
+    width:100%;
+
+
+}
+h1{
+    color:rgb(191, 23, 23);
+}
+#main{
+    height:100%;
+    width:100%;
+
+    align-items:center;
+    justify-content: center;
+    background-color: palevioletred;
+   
+}
+.class
+{
+    position:absolute;  
+     top:50%; 
+     left:50%; 
+     transform:translate(-50%,-50%); 
+        height:300px;
+    width:250px;
+    border:2px solid salmon;
+   border-radius: 10px;
+   overflow:hidden;
+   /* use to align curve image */
+   
+
+
+}
+#c4
+{
+    z-index: 4;
+    background-color:rgb(231, 200, 200);
+    rotate:-20deg;
+
+}
+
+#c3
+{
+    z-index: 6;
+    background-color:aqua;
+    rotate:-16deg;
+}    
+#c2
+{
+    z-index:8;
+    background-color:rgb(190, 21, 49);
+    rotate:-12deg;
+
+    
+}
+#c1
+{ z-index:10;
+   background-color: rgb(17, 211, 17);
+   rotate:-8deg; 
+}
+img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+#c2:hover{
+    z-index:10;
+}
+#c3:hover{
+    z-index:10;
+}
+#c4:hover{
+    z-index:10;
+}

@@ -1,0 +1,22 @@
+.box
+{
+background-color: beige;
+/* height:300px;
+width:200px; */
+/* display: flex; */
+align-items: center;
+justify-content: center;
+width:fit-content;
+
+/* padding: 20px; top right left botton
+ */
+
+padding: 20px 40px;
+/* topBotton leftRight */
+}
+.classes{
+
+    background-color: blue;
+    height:200px;
+    width: 200px;
+}

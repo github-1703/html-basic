@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html,body{
+    background-color:beige;
+    
+
+
+}
+
+h1{
+    color:bisque;
+    background-color:rgb(80, 77, 77);
+    margin:5px;
+    padding:16px;
+}
+div
+{
+    display:flex;
+}
